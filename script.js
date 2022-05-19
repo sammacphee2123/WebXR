@@ -25,7 +25,8 @@ async function activateXR() {
         alpha: true,
         preserveDrawingBuffer: true,
         canvas: canvas,
-        context: gl
+        context: gl,
+        antialias: true,
     });
     renderer.autoClear = false;
 
